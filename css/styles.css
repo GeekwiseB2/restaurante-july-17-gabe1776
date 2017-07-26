@@ -1,4 +1,13 @@
 /*header styles*/
-nav, header, .nav {
-  background-color: transparent;
+
+#farm-background {
+  height: 853px;
+}
+
+#seating-background {
+  height: 853px;
+}
+
+.content {
+margin-bottom: 225px;
 }
