@@ -7,6 +7,9 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto');
+	</style>
 </head>
 <body>
 	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
@@ -27,9 +30,9 @@
 	      <ul class="nav navbar-nav navbar-right">
 					<li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
 	        <li><a href="ourstory.html">Our Story</a></li>
-	        <li><a href="review.html">Review</a></li>
+	        <li><a href="#review">Review</a></li>
 					<li><a href="menu.html">Menu</a></li>
-	        <li><a href="contact.html">Contact Us</a></li>
+	        <li><a href="#contact">Contact Us</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
@@ -87,22 +90,176 @@
 		</div>
 
 		<!-- Our Story Section -->
-		<div class="container" id="our-story">
-			<div class="row">
-				<div class="col-sm-6">
-						<h1 class="lobster-text">Our Story</h1>
-						<h3>One Man. One Story</h3>
+		<div class="row our-story">
+			<div class="col-sm-6">
+				<div class="col-xs-8 col-xs-offset-2">
+					<h1>Our Story</h1>
+					<h3>One Man. One Dream.</h3>
 				</div>
-				<div class="col-sm-6 text-justify">
-					<h1 class="year-text">1989</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, rerum magnam praesentium libero doloribus soluta atque ad culpa pariatur! Asperiores facere, reprehenderit, repudiandae ipsum nostrum animi deleniti nulla necessitatibus fugit.</p>
-					<p>Odio velit minima soluta veritatis quidem consectetur, provident cum quaerat! Eius perferendis nisi, voluptatem rem voluptates praesentium commodi iusto dolore officia, quasi quod cupiditate, officiis magni vero consequatur laborum quis.</p>
-					<p>Repudiandae deleniti eius, nulla repellat! Cum voluptatibus quae, temporibus ipsum non vitae dolorem maxime eligendi accusamus tempore ad fugiat repellat libero numquam voluptates praesentium asperiores illum veniam minus porro reiciendis.</p>
-					<p>Quis rerum ab maxime ullam, praesentium corrupti. Consequatur eveniet, nobis consectetur tempora nemo, voluptatum labore delectus illum non exercitationem tenetur veniam quia quod beatae a dicta facere, eos aspernatur iure.</p>
-				</div>
-				<div class="row col-sm-6"></div>
+			</div>
+			<div class="col-sm-5">
+				<h1 id="font-right">1989</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, reiciendis ducimus! Quasi quos culpa consectetur voluptatum nihil officiis esse animi ratione numquam ipsa aut, ex illum, ipsam eligendi possimus sapiente.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, reiciendis ducimus! Quasi quos culpa consectetur voluptatum nihil officiis esse animi ratione numquam ipsa aut, ex illum, ipsam eligendi possimus sapiente.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, reiciendis ducimus! Quasi quos culpa consectetur voluptatum nihil officiis esse animi ratione numquam ipsa aut, ex illum, ipsam eligendi possimus sapiente.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, reiciendis ducimus! Quasi quos culpa consectetur voluptatum nihil officiis esse animi ratione numquam ipsa aut, ex illum, ipsam eligendi possimus sapiente.</p>
 			</div>
 		</div>
+		<!-- Our Story Section Ends -->
+		<!-- review starts -->
+		<div class="container-fluid" id="review">
+	    <div class="row">
+	      <div class="flex">
+	        <div class="col-sm-10 col-sm-offset-1 fresno-bee text-center">
+	          <h1>Fresno Bee</h1>
+	          <p>"The freshest and best ingredients come together to make some of the best food i have ever ate. You can really taste the Central Valley in every bite."</p>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+		<!-- review ends -->
+		<!-- menu wrapper begins -->
+		<div class="container-fluid">
+			<div id="menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-10">
+							<h1>Menu</h1>
+						</div>
+					</div>
+				</div>
+			  <!-- Nav tabs -->
+			  <ul class="nav nav-tabs nav-justified" role="tablist">
+			    <li role="presentation" class="active"><a href="#appetizer" aria-controls="appetizer" role="tab" data-toggle="tab">APPETIZER</a></li>
+			    <li role="presentation"><a href="#lunch" aria-controls="lunch" role="tab" data-toggle="tab">LUNCH</a></li>
+			    <li role="presentation"><a href="#dinner" aria-controls="dinner" role="tab" data-toggle="tab">DINNER</a></li>
+			    <li role="presentation"><a href="#desert" aria-controls="deserts" role="tab" data-toggle="tab">DESERTS</a></li>
+			  </ul>
+			  <!-- Tab panes -->
+			  <div class="tab-content">
+			    <div role="tabpanel" class="tab-pane active fade in" id="appetizer">
+						<!--appetizer menu wrapper-->
+		    		<div class="col-sm-3 food"><!--item 1 begins-->
+		    			<img src="img/dip.jpg" alt="" class="img-responsive img-thumbnail">
+		    			<h3 class="text-center">Appetizer 1</h3>
+		    			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus ducimus nulla eum dolorum explicabo, velit dolor blanditiis, rem beatae? Nihil repellat vero quia itaque, provident corrupti rerum consequatur, tenetur consectetur.</p>
+		    		</div><!--item 1 ends-->
+		    		<div class="col-sm-3 food"><!--item 2 begins-->
+		    			<img src="img/bruschetta.jpg" alt="" class="img-responsive img-thumbnail">
+		    			<h3 class="text-center">Appetizer 2</h3>
+		    			<p class="text-justify">Voluptate, exercitationem accusamus. Modi, doloribus consequuntur esse molestias illo, odit sint, adipisci reprehenderit, recusandae rerum saepe debitis. Nihil laudantium ut sequi deleniti, temporibus accusantium laboriosam, eius nisi magnam tenetur atque.</p>
+		    		</div><!--item 2 ends-->
+		    		<div class="col-sm-3 food"><!--item 3 begins-->
+		    			<img src="img/meat.jpg" alt="" class="img-responsive img-thumbnail">
+		    			<h3 class="text-center">Appetizer 3</h3>
+		    			<p class="text-justify">A, reprehenderit, doloremque voluptatibus reiciendis aut harum deserunt placeat beatae ea quam. Fugiat, quibusdam provident saepe totam incidunt ad iusto deserunt. Ullam accusamus voluptatem natus totam non nam repellendus eos!</p>
+		    		</div><!--item 3 ends-->
+		    		<div class="col-sm-3 food"><!--item 4 begins-->
+		    			<img src="img/eggplant.jpg" alt="" class="img-responsive img-thumbnail">
+		    			<h3 class="text-center">Appetizer 4</h3>
+		    			<p class="text-justify">Reiciendis aliquid, maxime ducimus ab dolores aspernatur, sunt ullam vel odio nulla, nesciunt consequuntur. Fugit itaque mollitia tempora! Reiciendis est eius hic, ut quos cupiditate animi, expedita recusandae maxime suscipit.</p>
+		    		</div><!--item 4 ends-->
+						<!--appetizer menu wrapper ends-->
+			    </div>
+			    <div role="tabpanel" class="tab-pane fade" id="lunch">
+						<!--appetizer menu wrapper-->
+		    		<div class="col-sm-3 food"><!--item 1 begins-->
+		    			<img src="img/lunch1.jpg" alt="" class="img-responsive img-thumbnail">
+		    			<h3 class="text-center">Lunch 1</h3>
+		    			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus ducimus nulla eum dolorum explicabo, velit dolor blanditiis, rem beatae? Nihil repellat vero quia itaque, provident corrupti rerum consequatur, tenetur consectetur.</p>
+		    		</div><!--item 1 ends-->
+		    		<div class="col-sm-3 food"><!--item 2 begins-->
+		    			<img src="img/lunch2.jpg" alt="" class="img-responsive img-thumbnail">
+		    			<h3 class="text-center">Lunch 2</h3>
+		    			<p class="text-justify">Voluptate, exercitationem accusamus. Modi, doloribus consequuntur esse molestias illo, odit sint, adipisci reprehenderit, recusandae rerum saepe debitis. Nihil laudantium ut sequi deleniti, temporibus accusantium laboriosam, eius nisi magnam tenetur atque.</p>
+		    		</div><!--item 2 ends-->
+		    		<div class="col-sm-3 food"><!--item 3 begins-->
+		    			<img src="img/lunch3.jpg" alt="" class="img-responsive img-thumbnail">
+		    			<h3 class="text-center">Lunch 3</h3>
+		    			<p class="text-justify">A, reprehenderit, doloremque voluptatibus reiciendis aut harum deserunt placeat beatae ea quam. Fugiat, quibusdam provident saepe totam incidunt ad iusto deserunt. Ullam accusamus voluptatem natus totam non nam repellendus eos!</p>
+		    		</div><!--item 3 ends-->
+		    		<div class="col-sm-3 food"><!--item 4 begins-->
+		    			<img src="img/lunch4.jpg" alt="" class="img-responsive img-thumbnail">
+		    			<h3 class="text-center">Lunch 4</h3>
+		    			<p class="text-justify">Reiciendis aliquid, maxime ducimus ab dolores aspernatur, sunt ullam vel odio nulla, nesciunt consequuntur. Fugit itaque mollitia tempora! Reiciendis est eius hic, ut quos cupiditate animi, expedita recusandae maxime suscipit.</p>
+		    		</div><!--item 4 ends-->
+						<!--appetizer menu wrapper ends-->
+			    </div>
+			    <div role="tabpanel" class="tab-pane fade" id="dinner">
+						<!--dinner menu wrapper-->
+		    		<div class="col-sm-3 food"><!--item 1 begins-->
+		    			<img src="img/dinner1.jpg" alt="" class="img-responsive img-thumbnail">
+		    			<h3 class="text-center">Dinner 1</h3>
+		    			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus ducimus nulla eum dolorum explicabo, velit dolor blanditiis, rem beatae? Nihil repellat vero quia itaque, provident corrupti rerum consequatur, tenetur consectetur.</p>
+		    		</div><!--item 1 ends-->
+		    		<div class="col-sm-3 food"><!--item 2 begins-->
+		    			<img src="img/dinner2.jpg" alt="" class="img-responsive img-thumbnail">
+		    			<h3 class="text-center">Dinner 2</h3>
+		    			<p class="text-justify">Voluptate, exercitationem accusamus. Modi, doloribus consequuntur esse molestias illo, odit sint, adipisci reprehenderit, recusandae rerum saepe debitis. Nihil laudantium ut sequi deleniti, temporibus accusantium laboriosam, eius nisi magnam tenetur atque.</p>
+		    		</div><!--item 2 ends-->
+		    		<div class="col-sm-3 food"><!--item 3 begins-->
+		    			<img src="img/dinner3.jpg" alt="" class="img-responsive img-thumbnail">
+		    			<h3 class="text-center">Dinner 3</h3>
+		    			<p class="text-justify">A, reprehenderit, doloremque voluptatibus reiciendis aut harum deserunt placeat beatae ea quam. Fugiat, quibusdam provident saepe totam incidunt ad iusto deserunt. Ullam accusamus voluptatem natus totam non nam repellendus eos!</p>
+		    		</div><!--item 3 ends-->
+		    		<div class="col-sm-3 food"><!--item 4 begins-->
+		    			<img src="img/dinner4.jpg" alt="" class="img-responsive img-thumbnail">
+		    			<h3 class="text-center">Dinner 4</h3>
+		    			<p class="text-justify">Reiciendis aliquid, maxime ducimus ab dolores aspernatur, sunt ullam vel odio nulla, nesciunt consequuntur. Fugit itaque mollitia tempora! Reiciendis est eius hic, ut quos cupiditate animi, expedita recusandae maxime suscipit.</p>
+		    		</div><!--item 4 ends-->
+						<!--dinner menu wrapper ends-->
+			    </div>
+			    <div role="tabpanel" class="tab-pane fade" id="deserts">
+						<!--dessert menu wrapper-->
+		    		<div class="col-sm-3 food"><!--item 1 begins-->
+		    			<img src="img/dessert1.jpg" alt="" class="img-responsive img-thumbnail">
+		    			<h3 class="text-center">Desert 1</h3>
+		    			<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus ducimus nulla eum dolorum explicabo, velit dolor blanditiis, rem beatae? Nihil repellat vero quia itaque, provident corrupti rerum consequatur, tenetur consectetur.</p>
+		    		</div><!--item 1 ends-->
+		    		<div class="col-sm-3 food"><!--item 2 begins-->
+		    			<img src="img/dessert2.jpg" alt="" class="img-responsive img-thumbnail">
+		    			<h3 class="text-center">desert 2</h3>
+		    			<p class="text-justify">Voluptate, exercitationem accusamus. Modi, doloribus consequuntur esse molestias illo, odit sint, adipisci reprehenderit, recusandae rerum saepe debitis. Nihil laudantium ut sequi deleniti, temporibus accusantium laboriosam, eius nisi magnam tenetur atque.</p>
+		    		</div><!--item 2 ends-->
+		    		<div class="col-sm-3 food"><!--item 3 begins-->
+		    			<img src="img/dessert3.jpg" alt="" class="img-responsive img-thumbnail">
+		    			<h3 class="text-center">Desert 3</h3>
+		    			<p class="text-justify">A, reprehenderit, doloremque voluptatibus reiciendis aut harum deserunt placeat beatae ea quam. Fugiat, quibusdam provident saepe totam incidunt ad iusto deserunt. Ullam accusamus voluptatem natus totam non nam repellendus eos!</p>
+		    		</div><!--item 3 ends-->
+		    		<div class="col-sm-3 food"><!--item 4 begins-->
+		    			<img src="img/dessert4.jpg" alt="" class="img-responsive img-thumbnail">
+		    			<h3 class="text-center">Desert 4</h3>
+		    			<p class="text-justify">Reiciendis aliquid, maxime ducimus ab dolores aspernatur, sunt ullam vel odio nulla, nesciunt consequuntur. Fugit itaque mollitia tempora! Reiciendis est eius hic, ut quos cupiditate animi, expedita recusandae maxime suscipit.</p>
+		    		</div><!--item 4 ends-->
+						<!--dessert menu wrapper ends-->
+			    </div>
+			  </div>
+			</div>
+		</div>
+		<!-- menu wrapper ends -->
+
+		<!-- conact begins -->
+		<div class="container-fluid" id="contact">
+	    <div class="row">
+	      <div class="col-sm-8 col-sm-offset-1">
+	        <h1>CONTACT US</h1>
+	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus eum laudantium beatae nisi numquam facilis animi sit eligendi dolor voluptatum alias, aliquid, voluptates fuga provident.</p>
+	      </div>
+	    </div>
+			<div class="row row-2">
+		    <div class="col-sm-4 col-sm-offset-1">
+				<iframe height="450" allowTransparency="true" frameborder="0" scrolling="no" style="width:375px;border:solid white 1px"  src="https://gabe1776.wufoo.com/embed/z1jmu1690anx0j8/"><a href="https://gabe1776.wufoo.com/forms/z1jmu1690anx0j8/">Fill out my Wufoo form!</a></iframe><div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"><span class="notranslate">There are tons of <a href="http://www.wufoo.com/features/">Wufoo features</a> to help make your forms awesome.</span></div>
+		    </div>
+		    <div class="col-sm-4 col-sm-offset-1">
+		      <h4>Restaurante</h4>
+		      <p>123 Fulton St</p>
+		      <p>Fresno, CA 93728</p>
+		      <p>P:(123) 456-7890</p>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196281.88171878745!2d-104.99519741424383!3d39.764254749767034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b80aa231f17cf%3A0x118ef4f8278a36d6!2sDenver%2C+CO!5e0!3m2!1sen!2sus!4v1500999503132" width="350" height="150" frameborder="0" style="border:0" allowfullscreen class="map"></iframe>
+				</div>
+	    </div>
+	  </div>
+		<!-- contact ends -->
 	<!-- javascript	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>

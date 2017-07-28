@@ -11,3 +11,135 @@
 .content {
 margin-bottom: 225px;
 }
+
+
+/*our story section*/
+.our-story {
+  margin-top: 50px;
+}
+
+h1 {
+  font-family: 'Pacifico';
+  color: #f8512f;
+  font-size: 70px;
+
+}
+
+h3 {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 600;
+}
+
+p {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#font-right {
+  color: #EAE9E9;
+  position: absolute;
+  z-index: -1;
+  font-family: 'Serif';
+  font-weight: 600;
+  font-size: 205px;
+}
+/*our stor section ends*/
+
+/*review begins*/
+#review {
+  background-image: url("../img/food_review.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 750px;
+}
+
+.fresno-bee {
+background-color: rgba(0, 0, 0, .5);
+border-radius: 5px;
+}
+
+.fresno-bee h1 {
+  font-family: 'Lobster', cursive;
+  color: #f8512f;
+  text-shadow: 1px 1px 1px #333;
+  font-size: 60px;
+}
+
+.fresno-bee p {
+  color: white;
+  font-size: 26px;
+  font-family: 'Lato', sans-serif;
+  text-shadow: 1px 1px 1px #333;
+  line-height: 30px;
+  font-weight: 300;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  height: 750px;
+}
+/*review ends*/
+/*menu begins*/
+#menu {
+  background-image: url('../img/black_linen.png');
+  height: 650px;
+}
+
+#menu h1 {
+  font-family: 'Lobster', cursive;
+  color: #fff;
+  font-size: 5em;
+}
+
+.food {
+  background-color: #fff;
+  height: 450px;
+  overflow: auto;
+  padding: 8px 12px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, #menu a {
+  color: #F8512F;
+  text-transform: uppercase;
+}
+
+.nav-tabs.nav-justified>.active>a:hover, .nav>li>a:hover {
+  background-color: rgba(255, 225, 225, 0.2);
+  border-color: transparent;
+}
+
+
+/*menu ends*/
+
+/*contact starts*/
+#contact {
+  background-color: #F8512F;
+  color: white;
+}
+
+#contact h1 {
+  font-size: 51px;
+  font-weight: 600;
+  color: white;
+}
+#contact p {
+  padding-top: 0px;
+  margin: 0px;
+}
+
+#contact h4 {
+  margin-bottom: 0px;
+}
+
+.row-2 {
+  margin-top: 60px;
+}
+
+.map {
+  margin-top: 20px;
+}
+
+/*contact ends*/
