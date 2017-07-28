@@ -1,6 +1,15 @@
-body {
+
+#contact {
   background-color: #F8512F;
   color: white;
+  padding: 20px 10px;
+}
+
+form {
+  border: solid  1px #fff;
+  background-color: #FF6633;
+  padding: 15px;
+  width: 350px;
 }
 
 h1 {
